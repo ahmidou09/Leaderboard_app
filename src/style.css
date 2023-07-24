@@ -27,14 +27,17 @@ h2 {
   font-size: 3rem;
   margin-bottom: 2rem;
 }
+
 .main {
   display: flex;
   gap: 8rem;
   padding: 2rem;
 }
+
 .scores {
   width: 50%;
 }
+
 .recent {
   margin-bottom: 2rem;
   display: flex;
@@ -46,6 +49,7 @@ h2 {
 .recent span {
   font-size: 3rem;
 }
+
 .btn {
   padding: 0.5rem 2rem;
   background-color: transparent;
@@ -68,11 +72,13 @@ h2 {
 .item:nth-child(even) {
   background-color: #dbdbdb;
 }
+
 .form {
   display: flex;
   flex-direction: column;
   width: 40%;
 }
+
 .inputName,
 .inputScore {
   padding: 1rem;
