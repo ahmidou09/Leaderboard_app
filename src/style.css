@@ -1,0 +1,91 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 90rem;
+  margin: 5rem auto;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+.main {
+  display: flex;
+  gap: 8rem;
+  padding: 2rem;
+}
+.scores {
+  width: 50%;
+}
+.recent {
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+.recent span {
+  font-size: 3rem;
+}
+.btn {
+  padding: 0.5rem 2rem;
+  background-color: transparent;
+  cursor: pointer;
+  box-shadow: 5px 6px 4px 0 rgba(0, 0, 0, 1);
+}
+
+.list {
+  list-style: none;
+  background-color: rgb(248, 248, 248);
+  border: 1px solid black;
+}
+
+.item {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+.item:nth-child(even) {
+  background-color: #dbdbdb;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+.inputName,
+.inputScore {
+  padding: 1rem;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.inputName::placeholder,
+.inputScore::placeholder {
+  color: rgb(183, 183, 183);
+  text-transform: capitalize;
+}
+
+.submit {
+  align-self: end;
+}
