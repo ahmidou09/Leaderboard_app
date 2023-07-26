@@ -7,7 +7,7 @@ const displayScores = (scores) => {
     scores.forEach((score) => {
       const listItem = document.createElement('li');
       listItem.classList.add('item');
-      listItem.textContent = `${score.user}: ${score.score}`;
+      listItem.innerHTML = `<mark>${score.user}</mark> <small>${score.score}</small>`;
       scoresList.appendChild(listItem);
     });
   }
