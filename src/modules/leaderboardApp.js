@@ -1,4 +1,4 @@
-import { createGame, submitScore, getScores } from './leaderboardApi.js';
+import { submitScore, getScores } from './leaderboardApi.js';
 import displayScores from './displayScores.js';
 
 class LeaderboardApp {
@@ -11,7 +11,7 @@ class LeaderboardApp {
   }
 
   async init() {
-    const gameId = await createGame(this.gameName);
+    const gameId = 'Zf6Cjb5kljJ6O27oiQX3';
     if (!gameId) return;
 
     this.submitBtn.addEventListener('click', async (e) => {
@@ -39,11 +39,6 @@ class LeaderboardApp {
         displayScores(scores);
       }
     });
-
-    const initialScores = await getScores(gameId);
-    if (initialScores) {
-      displayScores(initialScores);
-    }
   }
 }
 
