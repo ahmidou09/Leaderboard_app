@@ -135,7 +135,7 @@ To run tests, run the following command:
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://ahmidou09.github.io/To-Do-list/)
+- [Live Demo Link](https://ahmidou09.github.io/Leaderboard_app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
