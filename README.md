@@ -10,6 +10,7 @@ This project is a Leaderboard app application created using webpack
   - [🛠️ Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -129,6 +130,12 @@ To run tests, run the following command:
 - **Add user authentication for submitting scores**
 - **Implement pagination for the leaderboard display**
 - **Enhance UI with additional styling and animations.**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://ahmidou09.github.io/To-Do-list/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
