@@ -1,4 +1,5 @@
 const scoresList = document.querySelector('.list');
+const currentPageElem = document.getElementById('currentPage');
 
 const displayScores = (scores) => {
   scoresList.innerHTML = '';
@@ -13,4 +14,12 @@ const displayScores = (scores) => {
   }
 };
 
-export default displayScores;
+const updateScoresList = (scores, currentPage, itemsPerPage) => {
+  const startIndex = (currentPage - 1) * itemsPerPage;
+  const endIndex = startIndex + itemsPerPage;
+  const scoresToShow = scores.slice(startIndex, endIndex);
+  displayScores(scoresToShow);
+  currentPageElem.innerText = currentPage;
+};
+
+export { displayScores, updateScoresList };
