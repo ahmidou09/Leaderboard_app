@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  min-height: 450px;
+  height: 100vh;
   margin: 0;
   background:
     radial-gradient(
@@ -46,14 +46,18 @@ h2 {
 
 .scores {
   width: 50%;
+  min-height: 70vh;
   border: 1px solid #c24448;
   border-radius: 5px;
+  display: flex;
+  flex-direction: column;
 }
 
 .scores .list {
   counter-reset: scores;
   list-style: none;
   padding: 1rem;
+  margin-bottom: auto;
 }
 
 .scores .item {
@@ -187,4 +191,16 @@ h2 {
 .btn:hover {
   transform: translateY(-0.25rem);
   box-shadow: 0 0.5em 0.5em -0.4em #fff;
+}
+
+.pagination {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#currentPage {
+  font-size: 1.6rem;
+  font-weight: bolder;
 }
